@@ -1,0 +1,55 @@
+body{
+    position: relative;
+    margin: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   background-image: url('bg_image.jpg');
+    }
+    
+    li:hover{
+	background-color: white;
+    }
+
+    a{
+	color: blue !important;
+	margin-right: 20px;
+	text-align: center;
+    }
+
+    table{
+       border-collapse: collapse;
+       width: 70%;
+       color: black;
+       font-family: monospace;
+       font-size: 20px;
+       text-align: left;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 12%;
+    }
+
+    th{
+       background-color: grey ;
+       color: white;
+       font-size: 23px;
+    }
+     
+    tr:nth-child(odd){
+    	background-color: #FFEBCD;
+    	font-size: 17px;
+    }
+
+    tr:nth-child(even){
+    	background-color: #FFF8DC;
+    	font-size: 17px;
+    }
+
+    @media (max-width: 479px){
+      h1{
+        font-size: 50px;
+      }
+       table{
+       width: 80%;
+       font-size: 30px;
+    }
+    }

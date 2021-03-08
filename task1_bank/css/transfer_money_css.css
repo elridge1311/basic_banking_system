@@ -1,0 +1,66 @@
+body{
+    position: relative;
+    margin: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url('bg_image.jpg');
+    text-align: center;
+ }
+
+ li:hover{
+   background-color: white;
+ }
+
+ a{
+   color: blue !important;
+   margin-right: 20px;
+ }
+
+ .form-signin {
+   width: 100%;
+   max-width: 600px;
+   padding: 15px;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 50px;
+   background-color:transparent;
+  }
+
+.visually-hidden{
+   color: white;
+}
+
+ .form-signin .form-control {
+   position: relative;
+   box-sizing: border-box;
+   height: auto;
+   font-size: 16px;
+   border-radius: 10px;
+   border: 1px solid black
+ }
+
+ .form-signin .form-control:focus {
+   z-index: 2;
+ }
+
+.btn{
+ border: 2px solid black
+}
+
+.btn:hover{
+ background-color: black;
+ color: #0493bd;
+ border: 2px solid blue
+}
+
+
+@media (max-width: 479px){
+   .form-signin {
+      width: 80%;
+      max-width: 320px;
+      padding: 11px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 50px;
+   }
+}
